@@ -1,0 +1,102 @@
+
+@media (max-width: 400px){
+    .nav-item{
+        margin: 4px;
+    }
+    .intro-info{
+        padding-left: 8px;
+    }
+    .about-me{
+        padding: 12px 8px;
+    }
+    .about-me-container{
+        padding: 20px 8px;
+    }
+}
+
+@media (min-width:401px) and (max-width: 600px){
+    .nav-item{
+        margin: 5px;
+    }
+    .intro-info{
+        padding-left: 16px;
+    }
+    .about-me{
+        padding: 12px;
+    }
+    .about-me-container{
+        padding: 24px 8px;
+    }
+}
+
+@media (min-width:601px) and (max-width: 800px){
+    .nav-item{
+        margin: 6px;
+    }
+    .intro-info{
+        padding-left: 24px;
+    }
+    .about-me{
+        padding: 14px 16px;
+    }
+    .about-me-container{
+        padding: 28px 8px;
+    }
+}
+
+@media (min-width:801px) and (max-width: 1000px){
+    .nav-item{
+        margin: 7px;
+    }
+    .intro-info{
+        padding-left: 32px;
+    }
+    .about-me{
+        padding: 15px 20px;
+    }
+    .about-me-container{
+        padding: 32px 8px;
+    }
+}
+
+@media (min-width:1001px){
+    .nav-item{
+        margin: 8px;
+    }
+    .intro-info{
+        padding-left: 52px;
+    }
+    .about-me{
+        padding: 16px 24px;
+    }
+    .about-me-container{
+        padding: 36px 8px;
+    }
+}
+
+
+.active{
+    border-bottom: 3px solid #ffffff;
+}
+
+.nav-item{
+    color: #ffffff;
+}
+
+.cool-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    border-bottom: none;
+    transition: width .3s;
+}
+.cool-link:hover::after {
+    width: 100%;
+    border-bottom: none;
+}
